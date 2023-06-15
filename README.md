@@ -1,2 +1,2 @@
 # HCOE-js-test
-Bonjour
+Bonjour!
