@@ -68,3 +68,8 @@ const add = (a,b)=>{
 add(2,3)
 add(1,2)
 
+//Exercises
+console.log("Hello world");
+
+const PI=3.1415;
+console.log(PI)
