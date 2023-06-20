@@ -134,3 +134,12 @@ const myFunctions = (data) =>{
     console.log("hi ",data);
 };
 fruit.map(myFunctions).toString();
+ 
+const newUppercase=others.map(myFunctions).toString();
+// console.log({newUppercase});
+
+const myName=(salutation,name)=>{
+    if(salutation==='') salutation=salutation || "Mr";
+    console.log(`${salutation} ${name}`);
+}
+myName('','Raju');
