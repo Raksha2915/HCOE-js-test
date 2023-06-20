@@ -123,3 +123,14 @@ const user={
 };
 const{password,phone,...rest}=user;
 console.log({rest});
+
+//Destructuring for array
+const fruit=['apple','banana','orange'];
+const[first,...others]=fruit;
+console.log(others);
+console.log(others.toString());
+
+const myFunctions = (data) =>{
+    console.log("hi ",data);
+};
+fruit.map(myFunctions).toString();
