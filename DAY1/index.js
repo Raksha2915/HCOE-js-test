@@ -73,3 +73,26 @@ console.log("Hello world");
 
 const PI=3.1415;
 console.log(PI)
+
+const person = {
+    fName:"John",
+    lName:"Doe",
+    fullname:()=>{
+        return `${person.fName} ${person.lName}`;
+    }
+};
+console.log(person.fName);
+console.log(person.lName)
+const p1=person.fullname();
+console.log(p1);
+
+const student ={
+    name:'Ram',
+    crn:45,
+    detail:()=>{
+        return `${student.name} ${student.crn}`;
+    }
+};
+const s1=student.detail();
+console.log(s1);
+
