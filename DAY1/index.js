@@ -96,3 +96,30 @@ const student ={
 const s1=student.detail();
 console.log(s1);
 
+const cars=['saab','volvo','BMW',45,{name:"Alto",company:"suzuki"}];
+//Accessing the first item from the array
+let firstcar=cars[0];
+console.log(firstcar);
+//Accessing the last item from the array
+// const lastcar=cars[cars.length-1];
+// console.log(lastcar)
+// console.log(cars.sort())
+// console.log(cars.push("Audi"));
+// console.log(cars);
+
+const myFunction = (data) => {
+    console.log(data);
+}
+cars.forEach(myFunction);
+cars.map(d=>console.log(d));
+
+//User model
+const user={
+    firstName:'Ram',
+    lastName:'Yadav',
+    email:'ram@gmail.com',
+    phone:'9844356789',
+    password:'19805672',
+};
+const{password,phone,...rest}=user;
+console.log({rest});
